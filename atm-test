@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    float y,bal;
+    scanf("%d %f",&x,&y);
+    if(x%5==0)
+    {
+        if(x+0.5<=y)
+            bal=y-x-0.50;
+        else
+            bal=y;
+    }
+    else
+        bal=y;
+    printf("%.2f",bal);
+    return 0;
+}
+ 
